@@ -1,11 +1,81 @@
-This repository contains the implementation of SQ-Net, a novel temporal encoding for Quantum Spiking Neural Networks (QSNN).
-The code includes data loading, quantum feature encoding, and a hybrid neural network model using TensorFlow and Qiskit.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQ-Net Repository</title>
+</head>
+<body>
 
-<p><strong>data/</strong>: Directory containing datasets for training and evaluation.</p>
+<h1>SQ-Net Repository</h1>
+
+<p>This repository contains the implementation of SQ-Net, a novel temporal encoding for Quantum Spiking Neural Networks (QSNN). The code includes data loading, quantum feature encoding, and a hybrid neural network model using TensorFlow and Qiskit.</p>
+
+<h2>Files and Directories</h2>
+
+<h3><b>data/</b></h3>
 <ul>
-<li><strong>Mackey-Glass Time Series(taw17).xlsx</strong>: Mackey-Glass time series data.</li>
-<li><strong>daily-minimum-temperatures.csv</strong>: Daily minimum temperatures data.</li>
-<li><strong>yahoo_data.xlsx</strong>: Yahoo data for analysis.</li>
+    <li><b>Mackey-Glass Time Series(taw17).xlsx</b>: Mackey-Glass time series data.</li>
+    <li><b>daily-minimum-temperatures.csv</b>: Daily minimum temperatures data.</li>
+    <li><b>yahoo_data.xlsx</b>: Yahoo data for analysis.</li>
+    <li><b>Temporal Encoding (Time Series Data).ipynb</b>: Jupyter notebook demonstrating temporal encoding using time series data.</li>
+    <li><b>Temporal Encoding (Trigonometric Functions).ipynb</b>: Jupyter notebook demonstrating temporal encoding using trigonometric functions.</li>
 </ul>
-<p><strong>Temporal Encoding (Time Series Data).ipynb</strong>: Jupyter notebook demonstrating temporal encoding using time series data.</p>
-<p><strong>Temporal Encoding (Trigonometric Functions).ipynb</strong>: Jupyter notebook demonstrating temporal encoding using trigonometric functions.</p>
+
+<h3><b>src/</b></h3>
+<ul>
+    <li><b>data_loader.py</b>: Code for loading and preprocessing the data.</li>
+    <li><b>quantum_encoder.py</b>: Code for encoding features using quantum circuits.</li>
+    <li><b>model_builder.py</b>: Code for building the hybrid neural network model.</li>
+    <li><b>train.py</b>: Code for training and evaluating the model.</li>
+    <li><b>utils.py</b>: Utility functions.</li>
+</ul>
+
+<h2>Setup Instructions</h2>
+
+<h3>Clone the repository:</h3>
+<pre>
+<code>
+git clone https://github.com/Ria-K912/SQ-Net.git
+cd SQ-Net
+</code>
+</pre>
+
+<h3>Install the required dependencies:</h3>
+<pre>
+<code>
+pip install -r requirements.txt
+</code>
+</pre>
+
+<h2>Requirements</h2>
+
+<p>The <b>requirements.txt</b> file includes the following dependencies:</p>
+<pre>
+<code>
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+qiskit
+openpyxl
+</code>
+</pre>
+
+<p>Make sure to have these installed before running the notebooks and scripts.</p>
+
+<h2>Usage</h2>
+
+<p>After installing the dependencies, you can explore the provided Jupyter notebooks for temporal encoding and time series analysis:</p>
+<ul>
+    <li><b>Temporal Encoding (Time Series Data).ipynb</b>: Demonstrates temporal encoding using time series data.</li>
+    <li><b>Temporal Encoding (Trigonometric Functions).ipynb</b>: Demonstrates temporal encoding using trigonometric functions.</li>
+</ul>
+
+<h2>License</h2>
+
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+
+</body>
+</html>
