@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SQ-Net Repository</title>
+    <title><h1>SQ-Net Repository</h1></title>
 </head>
 <body>
 
