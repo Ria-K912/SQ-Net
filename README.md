@@ -20,14 +20,6 @@
     <li><b>Temporal Encoding (Trigonometric Functions).ipynb</b>: Jupyter notebook demonstrating temporal encoding using trigonometric functions.</li>
 </ul>
 
-<h3><b>src/</b></h3>
-<ul>
-    <li><b>data_loader.py</b>: Code for loading and preprocessing the data.</li>
-    <li><b>quantum_encoder.py</b>: Code for encoding features using quantum circuits.</li>
-    <li><b>model_builder.py</b>: Code for building the hybrid neural network model.</li>
-    <li><b>train.py</b>: Code for training and evaluating the model.</li>
-    <li><b>utils.py</b>: Utility functions.</li>
-</ul>
 
 <h2>Setup Instructions</h2>
 
