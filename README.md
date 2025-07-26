@@ -9,18 +9,6 @@
 
 <p>This repository contains the implementation of SQ-Net, a novel temporal encoding for Quantum Spiking Neural Networks (QSNN). The code includes data loading, quantum feature encoding, and a hybrid neural network model using TensorFlow and Qiskit.</p>
 
-<h2>Files and Directories</h2>
-
-<h3><b>data/</b></h3>
-<ul>
-    <li><b>Mackey-Glass Time Series(taw17).xlsx</b>: Mackey-Glass time series data.</li>
-    <li><b>daily-minimum-temperatures.csv</b>: Daily minimum temperatures data.</li>
-    <li><b>yahoo_data.xlsx</b>: Yahoo data for analysis.</li>
-    <li><b>Temporal Encoding (Time Series Data).ipynb</b>: Jupyter notebook demonstrating temporal encoding using time series data.</li>
-    <li><b>Temporal Encoding (Trigonometric Functions).ipynb</b>: Jupyter notebook demonstrating temporal encoding using trigonometric functions.</li>
-</ul>
-
-
 <h2>Setup Instructions</h2>
 
 <h3>Clone the repository:</h3>
