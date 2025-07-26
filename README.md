@@ -45,7 +45,7 @@ openpyxl
 
 <h2>Usage</h2>
 
-<p>After installing the dependencies, you can explore both Jupyter notebooks and Python scripts for temporal encoding and time series analysis:</p>
+<p>After installing the dependencies, you can explore both Jupyter notebooks and Python scripts for temporal encoding and time series analysis.</p>
 
 <h2>License</h2>
 
