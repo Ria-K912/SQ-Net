@@ -45,11 +45,7 @@ openpyxl
 
 <h2>Usage</h2>
 
-<p>After installing the dependencies, you can explore the provided Jupyter notebooks for temporal encoding and time series analysis:</p>
-<ul>
-    <li><b>Temporal Encoding (Time Series Data).ipynb</b>: Demonstrates temporal encoding using time series data.</li>
-    <li><b>Temporal Encoding (Trigonometric Functions).ipynb</b>: Demonstrates temporal encoding using trigonometric functions.</li>
-</ul>
+<p>You can explore both Jupyter notebooks and Python scripts for temporal encoding and time series analysis:</p>
 
 <h2>License</h2>
 
